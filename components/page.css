@@ -1,0 +1,556 @@
+.container {
+    width: 100vw;
+    height: 90vh;
+    overflow-y: auto;
+    background-color: rgb(240, 220, 246);
+    margin: 0;
+    padding: 0;
+}
+
+.logoContainer {
+    width: 100vw;
+    min-height: 20vh;
+    background-color: rgb(179, 119, 200);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Sign {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Track {
+    font-family: "Fredericka the Great", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+}
+
+.OP {
+    color: rgb(92, 11, 167);
+    font-size: 50px;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.Line {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.totalContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.TotalIncome,
+.TotalExpense,
+.TotalBalance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid rgb(96, 5, 116);
+    background-color: rgb(220, 195, 230);
+
+}
+
+.totalContainer>*:hover {
+    background-color: rgb(232, 211, 239);
+}
+
+.totalContainer>*>h2 {
+    font-weight: 900;
+    font-size: 25px;
+    text-decoration: underline;
+    color: black;
+}
+
+.totalContainer>*>p {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.fullformcontainer {
+    width: 50vw;
+    border: 5px solid rgb(130, 17, 155);
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb(236, 221, 248);
+}
+
+.fullformcontainer>h2 {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.input label {
+    width: 30%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input input,
+.input select,
+.input textarea {
+    border: 2px solid rgb(96, 5, 116);
+    border-radius: 5px;
+    width: 70%;
+}
+
+.submitButton {
+    background-color: rgb(187, 70, 216);
+    border: 2px solid rgb(96, 5, 116);
+    border-radius: 20px;
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.submitButton:hover {
+    background-color: rgb(161, 80, 181);
+}
+
+.tableContainer {
+    width: 90vw;
+    min-height: 40vh;
+    border: 5px solid rgb(130, 17, 155);
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb(236, 221, 248);
+}
+
+.tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table input,table select{
+    font-size:15px;
+}
+
+.specialFilter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialfilter {
+    width: 40%;
+}
+
+.filter {
+    border: 2px solid rgb(96, 5, 116);
+    border-radius: 10px;
+}
+
+.tabselect {
+    width: 90%;
+}
+
+.tableContainer th:nth-child(1),
+.tableContainer td:nth-child(1) {
+    width: 15%;
+    font-size: 20px;
+}
+
+.tableContainer th:nth-child(2),
+.tableContainer td:nth-child(2) {
+    width: 15%;
+    font-size: 20px;
+}
+
+.tableContainer th:nth-child(3),
+.tableContainer td:nth-child(3) {
+    width: 14%;
+    font-size: 20px;
+}
+
+.tableContainer th:nth-child(4),
+.tableContainer td:nth-child(4) {
+    width: 14%;
+    font-size: 20px;
+}
+
+.tableContainer th:nth-child(5),
+.tableContainer td:nth-child(5) {
+    width: 14%;
+    font-size: 20px;
+}
+
+.tableContainer th:nth-child(6) {
+    font-size: 20px;
+    width: 16%;
+}
+
+.tableContainer td:nth-child(6){
+    font-size:18px;
+    width: 16%;
+}
+
+.resetTH {
+    width: 12%;
+}
+
+.resetButton {
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: rgb(201, 127, 220);
+    border: 2px solid rgb(96, 5, 116);
+    margin: auto;
+    padding: 3px 4px;
+}
+
+.resetButton:hover {
+    background-color: rgb(214, 134, 234);
+}
+
+.editTH {
+    width: 6%;
+    font-size: 15px;
+}
+
+lord-icon {
+    width: 25px;
+}
+
+.deleteTH {
+    width: 6%;
+    font-size: 15px;
+}
+
+.tableContainer th {
+    border: 1px solid rgb(96, 5, 116);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(194, 58, 225);
+    text-align: center;
+}
+
+.tableContainer td {
+    border: 1px solid rgb(96, 5, 116);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.fullDateBarContainer {
+    width: 50vw;
+    height: 50vh;
+    border: 5px solid rgb(130, 17, 155);
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb(236, 221, 248);
+}
+
+.fullDateBarContainer>h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: auto;
+    height: 5vh;
+}
+
+.DateBarContainer {
+    width: 50vw;
+    height: 45vh;
+}
+
+.fullCategoryBarContainer {
+    width: 50vw;
+    height: 50vh;
+    border: 5px solid rgb(130, 17, 155);
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgb(236, 221, 248);
+}
+
+.fullCategoryBarContainer>h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: auto;
+    height: 5vh;
+}
+
+.CategoryBarContainer {
+    width: 50vw;
+    height: 45vh;
+}
+
+@media (max-width:1200px) {
+    .logoContainer {
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .totalContainer {
+        flex-direction: column;
+    }
+    .totalContainer>*>h2 {
+        font-weight: 800;
+    }
+
+    .TotalIncome,
+    .TotalExpense,
+    .TotalBalance {
+        width: 80vw;
+        margin: 10px auto;
+
+    }
+
+    .fullformcontainer {
+        width: 95vw;
+    }
+
+    .input {
+        padding: 10px;
+    }
+
+    .input label {
+        font-size: 15px;
+
+    }
+
+    .input input,
+    .input select,
+    .input textarea {
+        font-size: 15px;
+    }
+
+    .submitButton {
+        margin: 20px;
+    }
+
+    .tableContainer {
+        width: 98vw;
+        min-height: 50vh;
+    }
+
+
+
+    .filter {
+        border: 1.5px solid rgb(96, 5, 116);
+        border-radius: 8px;
+    }
+    table input,table select{
+        font-size:8px;
+    }
+
+    .tableContainer th:nth-child(1),
+    .tableContainer td:nth-child(1) {
+        font-size: 12px;
+    }
+
+    .tableContainer th:nth-child(2),
+    .tableContainer td:nth-child(2) {
+
+        font-size: 12px;
+    }
+
+    .tableContainer th:nth-child(3),
+    .tableContainer td:nth-child(3) {
+
+        font-size: 12px;
+    }
+
+    .tableContainer th:nth-child(4),
+    .tableContainer td:nth-child(4) {
+
+        font-size: 12px;
+    }
+
+    .tableContainer th:nth-child(5),
+    .tableContainer td:nth-child(5) {
+
+        font-size: 12px;
+    }
+    .tableContainer th:nth-child(6) {
+    font-size: 12px;
+}
+
+.tableContainer td:nth-child(6){
+    font-size:10px;
+}
+
+    .resetButton {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 2px;
+        font-size: 8px;
+    }
+
+    .editTH {
+
+        font-size: 10px;
+    }
+
+    lord-icon {
+        width: 15px;
+    }
+
+    .deleteTH {
+
+        font-size: 10px;
+    }
+
+    .tableContainer th {
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+    }
+
+    .tableContainer td {
+
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+    }
+
+    .fullDateBarContainer {
+        width: 90vw;
+        margin: 15px auto;
+    }
+    
+    .DateBarContainer {
+        width: 90vw;
+    }
+    
+    .fullCategoryBarContainer {
+        width: 90vw;
+        margin: 15px auto;
+    }
+    
+    .CategoryBarContainer {
+        width: 90vw;
+    }
+
+}
+@media (max-width:450px){
+    .Line {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    table input,table select{
+        font-size:7px;
+    }
+    .tableContainer th:nth-child(1),
+    .tableContainer td:nth-child(1) {
+        font-size: 9px;
+    }
+
+    .tableContainer th:nth-child(2),
+    .tableContainer td:nth-child(2) {
+
+        font-size: 9px;
+    }
+
+    .tableContainer th:nth-child(3),
+    .tableContainer td:nth-child(3) {
+
+        font-size: 9px;
+    }
+
+    .tableContainer th:nth-child(4),
+    .tableContainer td:nth-child(4) {
+
+        font-size: 9px;
+    }
+
+    .tableContainer th:nth-child(5),
+    .tableContainer td:nth-child(5) {
+
+        font-size: 9px;
+    }
+
+    .tableContainer th:nth-child(6) {
+        font-size: 9px;
+    }
+    
+    .tableContainer td:nth-child(6){
+        font-size:7px;
+    }
+    .resetButton {
+        width: 98%;
+        padding: 1px;
+        font-size: 6px;
+    }
+
+    .editTH {
+
+        font-size: 6px;
+    }
+
+    lord-icon {
+        width: 12px;
+    }
+
+    .deleteTH {
+
+        font-size: 6px;
+    }
+
+    .tableContainer th {
+        padding-top: 6px;
+        padding-bottom: 6px;
+
+    }
+
+    .tableContainer td {
+
+        padding-top: 3px;
+        padding-bottom: 3px;
+
+    }
+
+    
+    .fullDateBarContainer>h2 {
+        font-size: 15px;
+    }
+    .fullCategoryBarContainer>h2 {
+        font-size: 15px;
+    }
+    
+
+    
+}
