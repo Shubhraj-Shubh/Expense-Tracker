@@ -141,8 +141,10 @@
     border: 2px solid rgb(96, 5, 116);
     border-radius: 20px;
     margin: 25px;
-    padding: 10px;
     text-align: center;
+}
+.submitButton button {
+    padding: 10px;
 }
 
 .submitButton:hover {
@@ -236,9 +238,10 @@ table input,table select{
     background-color: rgb(201, 127, 220);
     border: 2px solid rgb(96, 5, 116);
     margin: auto;
-    padding: 3px 4px;
 }
-
+.resetButton button{
+    padding:4px;
+}
 .resetButton:hover {
     background-color: rgb(214, 134, 234);
 }
@@ -394,10 +397,11 @@ lord-icon {
         width: 90%;
         height: auto;
         margin: auto;
-        padding: 2px;
         font-size: 8px;
     }
-
+.resetButton button{
+    padding:2px;
+}
     .editTH {
 
         font-size: 10px;
@@ -483,10 +487,11 @@ lord-icon {
     }
     .resetButton {
         width: 98%;
-        padding: 1px;
         font-size: 6px;
     }
-
+.resetButton button{
+    padding:1px;
+}
     .editTH {
 
         font-size: 6px;
