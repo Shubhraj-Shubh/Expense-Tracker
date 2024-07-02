@@ -1,0 +1,13 @@
+.footer {width:100vw;
+height:5vh;
+background-color: rgb(96, 16, 131);
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left:15px;
+padding-right: 15px;
+}
+p{
+    color: white;
+}
